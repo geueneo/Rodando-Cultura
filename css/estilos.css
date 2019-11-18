@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.navbar-per {
+    background-image: url(../img/fondo2.png);
+    background-size: 55px;
+    font-family: textos;
+	font-size: 300%;
+	background-repeat:repeat-x
+}
+.card {
+	background-color: rgba(247, 247, 247, 0.466);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+body {
+    background-image: url(../img/101.png);
+    background-size: 100%;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: 400px;
+    display: block;
+}
+
+.parrafos {
+    padding-top: 5%;
+    font-family: textos;
+    color: rgb(0, 0, 0);
+}
+
+.textoCentral {
+    padding-top: 200px;
+    font-family: titulos;
+
+}
+.video {
+    width: 830px;
+}
+
+.tabla {
+    position: sticky;
+    height: 90%;
+    margin: auto;
+    display: block;
+}
+
+.textos {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    background-color: rgba(247, 247, 247, 0.466);
+    padding-inline: 10px;
+	font-family: textos;
+	font-size: 130%;
+
+}
+
+.imagengota {
+    height: 170px;
+}
+
+.padre {
+    
+    display: inline-block;
+    margin-left: 40%;
+	font-family: titulos;
+	font-size: 120%;
+	}
+
+.card-title {
+   
+    bottom: 50%;
+    font-family: titulos;
+	font-size: 300%;
+}
+.card-text {
+	 bottom: 50%;
+    font-family: textos;
+	font-size: 130%;
+}
+	
+.titulo{
+	font-family: titulos;
+	font-size: 350%;
+}
+
+
+@font-face {
+    font-family: textos;
+    src: url(../fuentes/Bellerose.ttf);
+
+}
+@font-face {
+    font-family: titulos;
+    src: url(../fuentes/Empires.otf);
+}
+.display-4 {
+	font-size: 380%;
+}
+.blockquote-footer {
+	font-size: 160%;
+	color: rgba(209,0,150,1.00);	
+		
+}
+.navbar-collapse {
+	font-size: 160%;
+	
+}
+
